@@ -1,9 +1,10 @@
 git branch -v
+shows last commit of each branch
 
 git branch --merged
 shows branches that are already merged.... we can del them
 
-git brach --no -merged
+git brach --no-merged
 shows branches that are not merged
 
 deleting branches
