@@ -1,0 +1,20 @@
+do as follows--
+
+modify a previous file..
+git status
+git add .
+
+create a new file 
+git status
+
+now...
+one will be in mmodified area (previous)
+
+another will be in untracked area(new)
+
+now.. to skip staging for the  new one use--
+
+git commit -a -m "Direct Commit"
+(This will move all tracked files to staging area and then commit)
+
+it won't commit untracked files

@@ -1,0 +1,3 @@
+befor commit text as writtern 
+
+we cleared it then restored it

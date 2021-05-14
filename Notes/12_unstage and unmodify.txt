@@ -1,0 +1,12 @@
+COMMAND TO UNSTAGE
+
+git restore --staged vim1.txt
+
+COMMAND TO UNMODIFY -- takes the file to the state as it was in last commit
+
+ git checkout -- vim1.txt
+
+note--git ignore is never modified
+
+$git checkout -f
+ignores all changes and takes our directory to state of previous commit

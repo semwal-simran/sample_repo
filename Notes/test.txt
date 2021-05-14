@@ -1,0 +1,15 @@
+test before...
+shown in untracked area
+run
+git status..
+git add .
+
+
+now we made changes
+now run status again...
+u'll find it in staged area as well as modified...
+
+lines in blue htaker green lines added
+
+
+I'm a new line hello simran

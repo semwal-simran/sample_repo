@@ -1,0 +1,25 @@
+check status --
+
+git status
+
+git init... begin
+
+git status
+
+branch- by default master
+
+git add --a
+//all files moved to staging area
+
+//specific file
+git add first.txt
+
+git commit -m "Initial Commit"
+git commit -m "Commit 2 "
+
+view changes-
+git log
+
+warning: could not open directory 'System Volume Information/': Permission denie
+d
+On branch master

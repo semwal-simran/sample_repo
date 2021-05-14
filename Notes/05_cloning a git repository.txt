@@ -1,0 +1,18 @@
+rm -rf one.txt
+deletes the files mentioned
+
+rm -rf .git
+deletes complete .git folder..
+the folder will now no longer be a git repo from now on.. no tracking will be done
+
+rm -rf dir ame --- can delete a folder
+
+
+CLONING
+ git clone link new name 
+new name is optional
+
+
+press q to quit viewing logs
+
+we can even rollback

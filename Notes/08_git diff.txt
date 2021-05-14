@@ -1,0 +1,2 @@
+compares working area with staging directory
+see 9

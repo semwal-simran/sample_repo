@@ -1,0 +1,49 @@
+let's assume we have a project 
+creating a website
+
+one person good in html and css
+other in backend
+
+initial commit-s1
+second-s2
+third-s3
+
+
+example one wants to make some changes...
+
+make a branch and work parallely..
+
+merge it to original one
+
+COMMAND 
+
+$git checkout -b branch name
+
+""this command creates a brach as well as takes us to it"
+
+<<<<<<< HEAD
+$git checkout master/any other branch name
+""move back to original one... to mentioned branch name"
+
+$git branch
+"lists branches"
+
+AMAZING CONCEPT
+
+EVERYTIME YOU SWITCH BRANCHES DO REMEMBER TO COMMIT
+NOW... MERGING BRANCHES
+STEP 1.. MOVE TO MASTER
+STEP2...GIT MERGE NAME_OF_BRANCH
+
+MERGE CONFLICT ARISES WHEN WE MAKE CHANGES TO THE SAME THING IN BOTH BRANCHES...
+
+WE CAN EASILY RESOLVE THEM
+
+$git checkout master
+""move back to original one"
+
+$git branch
+"lists branches"
+
+
+NOTE-CHANGES MADE IN ANY BRANCH ARE SPECIFIC TO THEMSELVES ONLY...

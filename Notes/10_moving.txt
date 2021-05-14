@@ -1,0 +1,28 @@
+if we rename a file.. then for git it is deleted and a new one is created 
+
+but when we add it to staging area it then clearly shows that the file was renamed
+
+after commit
+git rm were.txt
+
+if we do m anually then we have to use git add too 
+
+this command removes and stages
+
+
+RENAME
+ syntax---git mv old name.txt new name.txt
+
+ git mv hello.txt renamed.txt
+---moves to staging area as well
+
+now doing this...
+create new file
+add to staging area 
+then add to git ignore
+then modify it 
+u'll find that it is still being tracked...
+to avoid this situation use---
+[git rm --cached ignore.txt]
+
+

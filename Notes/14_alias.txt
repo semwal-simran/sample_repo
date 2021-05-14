@@ -1,0 +1,16 @@
+alias means instead of writing a large command we write a small one 
+
+we define it as per our need and ease
+
+COMMAND TO DEFINE ALIAS
+EG1
+$git config --global alias.st status
+
+EG2
+$git config --global alias.ci commit
+
+EG 3
+""we usually write git restore --staged filename to unstage a file "
+now using alias
+
+$git config --global alias.unstage 'restore --staged --'

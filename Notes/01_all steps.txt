@@ -1,0 +1,21 @@
+"WELCOME"
+checking for third commit
+
+git init--- initializes our git repository i.e. creates a hidden .git folder for our work
+needs to be run only once
+
+git status - tells us whether we have any modified files or new files that need to be added
+
+//moving files to staging area
+
+then use git add --a to add all files
+ or
+git add sepecific file to add only few files
+
+then git commit -m "Message"
+
+save and close all files before commit
+
+git log --> to view all changes
+
+we can even rollback to our previous versions...

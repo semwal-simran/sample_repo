@@ -1,0 +1,11 @@
+git branch -v
+
+git branch --merged
+shows branches that are already merged.... we can del them
+
+git brach --no -merged
+shows branches that are not merged
+
+deleting branches
+git branch -d develop-- shows error if not merged
+git branch -D develop--deletes without merged
